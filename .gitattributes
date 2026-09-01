@@ -1,0 +1,12 @@
+# Text file normalization
+*.map linguist-generated
+*.woff2 binary
+
+*.jpeg binary
+
+src/** linguist-detectable
+*.json linguist-detectable=false
+Cargo.lock linguist-generated
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
+examples/site/** linguist-vendored
